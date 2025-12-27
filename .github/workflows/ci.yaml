@@ -22,4 +22,4 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: durgesh04/python-app:${{ GITHUB.SHA::6 }}
+          tags: durgesh04/python-app:${{ GITHUB.SHA::7 }}
