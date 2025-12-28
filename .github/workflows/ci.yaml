@@ -27,4 +27,4 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: durgesh04/python-app:${{ SHORT_SHA }}
+          tags: durgesh04/python-app:${{ env.SHORT_SHA }}
